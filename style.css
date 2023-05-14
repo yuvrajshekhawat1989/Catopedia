@@ -1,0 +1,126 @@
+/* *{
+    border: 2px solid rosybrown;
+} */
+body {
+  margin: 0;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* Style of header */
+.header,
+.cover {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f2937;
+  padding: 16px 32px;
+}
+.header-logo {
+  font-size: 24px;
+  font-weight: 900;
+  color: #fff;
+}
+ul {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  gap: 16px;
+  justify-content: flex-start;
+}
+.header a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Style of cover */
+.cover {
+  gap: 100px;
+  padding: 16px 32px 64px 32px;
+}
+.cover .intro {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+.cover img {
+  width: 400px;
+  border-radius: 10px;
+}
+.intro {
+  color: white;
+}
+.intro .title {
+  font-size: 36px;
+  font-weight: 900;
+}
+/* Style of content */
+.content {
+  padding: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+}
+/* Style of quote */
+.quote {
+  text-align: center;
+  background-color: #e5e7eb;
+  padding: 100px 50px;
+  font-size: 24px;
+}
+/* Style of sign-up box */
+.sign-up {
+  display: flex;
+  padding: 50px 50px;
+  align-items: center;
+  justify-content: center;
+}
+.sign-up-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 25px 150px;
+  background-color: #3b82f6;
+  color: #fff;
+  border-radius: 10px;
+}
+.sign-up-request #bold {
+  font-size: 18px;
+  font-weight: 900;
+}
+/* Style of footer */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  padding: 32px 0;
+  color: #fff;
+}
+/* Style of sign-up buttons */
+.sign-up-button {
+  padding: 10px;
+  color: white;
+  font-weight: 800;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+.button1 {
+  background-color: #3b82f6;
+}
+.button2 {
+  border: 2px solid #fff;
+}
+
+/* Style of cards */
+.card img{
+    border-radius: 10px;
+    width: 300px;
+}
+
+.card .personal-data{
+    text-align: center;
+}
+/* box-shadow: 0 0 8px rgba(0,0,0,.1); */
