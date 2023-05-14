@@ -1,2 +1,2 @@
 # Catopedia
-A short introduction website made using Vanilla CSS.
+A basic website made using HTML and Vanilla CSS.
